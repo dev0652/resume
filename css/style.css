@@ -57,9 +57,15 @@ h4 {
 
 ul,
 ol {
-    padding-left: 22px;
+    list-style-position: inside;
+    padding-left: 0;
     line-height: 24px;
     margin-bottom: 20px;
+}
+
+ul>li::marker,
+ol>li::marker {
+    font-weight: bold;
 }
 
 a {
@@ -91,7 +97,6 @@ a {
 }
 
 .left-text-block ul>li::marker {
-    font-weight: bold;
     color: #FB6D3A;
 }
 
@@ -117,6 +122,15 @@ a {
     color: #595959;
 }
 
+li span.bullet-spacing {
+    position: relative;
+    left: 13px;
+}
+
+.right-block ol>li::marker {
+    color: #000;
+}
+
 .about {
     /* width: 400px; */
     /* Block width has been changed intentionally to accomodate the new name's length */
@@ -127,7 +141,6 @@ a {
     margin-bottom: 19px;
 }
 
-
 .description {
     line-height: 24px;
     width: 400px;
@@ -135,10 +148,6 @@ a {
 
 .projects {
     margin-bottom: 51px;
-}
-
-ol>li::marker {
-    font-weight: bold;
 }
 
 .experience {
@@ -151,7 +160,6 @@ ol>li::marker {
     color: #A8A8A8;
     font-size: 12px;
     line-height: 15px;
-    /* margin-top: 11px; */
     margin-bottom: 8px;
 }
 
