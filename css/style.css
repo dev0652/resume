@@ -185,3 +185,11 @@ li span.bullet-spacing {
 p.black {
     color: #000;
 }
+
+/* LEADERS */
+
+.underlined {
+    text-decoration: underline dashed;
+    color: #A8A8A8;
+    white-space: pre;
+}
