@@ -118,6 +118,11 @@ a {
 	color: lightgray;
 }
 
+#github-logo {
+	height: 1em;
+	vertical-align: middle;
+}
+
 /* RIGHT BLOCK  */
 
 .right-block {
@@ -134,8 +139,8 @@ a {
 }
 
 .about {
-	/* width: 400px; */
 	/* Block width has been changed intentionally to accomodate the new name's length */
+	/* width: 400px; */
 	margin-bottom: 40px;
 }
 
@@ -145,7 +150,10 @@ a {
 
 .description {
 	line-height: 24px;
-	width: 400px;
+	/* Block width has been changed intentionally to accomodate the new name's length */
+	/* width: 400px; */
+	width: 485px;
+	/* text-align: justify; */
 }
 
 .projects {
