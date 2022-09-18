@@ -15,25 +15,24 @@ body {
 	box-sizing: border-box;
 }
 
-
 * {
 	margin: 0;
 }
 
-/* Styles */
+/* Main styles */
 
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #F5F7FA;
 }
 
-main {
+.page {
 	background-color: #FFF;
 	margin: 40px auto;
 	width: 1200px;
 	height: 1319px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	/* offset-x offset-y blur-radius spread-radius color */
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 	font-size: 14px;
@@ -45,7 +44,6 @@ h1 {
 	font-size: 45px;
 	line-height: 55px;
 	margin-bottom: 24px;
-
 }
 
 h3 {
@@ -62,7 +60,6 @@ h4 {
 
 ul,
 ol {
-	/* list-style-position: outside; */
 	padding-left: 0;
 	line-height: 24px;
 	margin-bottom: 20px;
@@ -82,53 +79,10 @@ a {
 	color: #595959;
 }
 
-/* LEFT BLOCK */
-
-.left-block {
-	width: 370px;
-	height: 1319px;
-	padding-top: 40px;
-	background-color: #1E2939;
-}
-
-.photo {
-	width: 370px;
-}
-
-.sidebar-text {
-	margin-top: 51px;
-	margin-left: 40px;
-	color: #FFF;
-}
-
-/* .sidebar-text div,  */
-.sidebar-text section {
-	margin-bottom: 45px;
-}
-
-.sidebar-text ul>li::marker {
-	color: #FB6D3A;
-}
-
-.contacts p {
-	display: inline;
-	/* font-weight: bold; */
-	line-height: 24px;
-	margin-right: 20px;
-}
-
-.contacts a {
-	color: lightgray;
-}
-
-#github-logo {
-	height: 1em;
-	vertical-align: middle;
-}
-
 /* RIGHT BLOCK  */
 
 .right-block {
+	width: 830px;
 	padding-left: 88px;
 	padding-top: 102px;
 }
@@ -155,8 +109,8 @@ a {
 	line-height: 24px;
 	/* Block width has been changed intentionally to accomodate the new name's length */
 	/* width: 400px; */
-	width: 470px;
-	/* text-align: justify; */
+	width: 480px;
+	text-align: justify;
 }
 
 .projects {
@@ -197,6 +151,51 @@ a {
 
 p.black {
 	color: #000;
+}
+
+
+/* LEFT BLOCK */
+
+.left-block {
+	/* align-items: stretch; */
+	width: 370px;
+	padding-top: 40px;
+	background-color: #1E2939;
+}
+
+.photo {
+	width: 370px;
+}
+
+.sidebar-text {
+	margin-top: 51px;
+	margin-left: 40px;
+	color: #FFF;
+}
+
+/* .sidebar-text div,  */
+.sidebar-text section {
+	margin-bottom: 45px;
+}
+
+.sidebar-text ul>li::marker {
+	color: #FB6D3A;
+}
+
+.contacts p {
+	display: inline;
+	/* font-weight: bold; */
+	line-height: 24px;
+	margin-right: 20px;
+}
+
+.contacts a {
+	color: lightgray;
+}
+
+#github-logo {
+	height: 1em;
+	vertical-align: middle;
 }
 
 /* Dashed leaders in Projects */
