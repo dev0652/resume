@@ -1,5 +1,10 @@
-* {
-    margin: 0;
+/* CSS Reset */
+
+html,
+body {
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 *,
@@ -10,14 +15,12 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+
+* {
+    margin: 0;
 }
 
-/*--------------------*/
+/* Styles */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -122,11 +125,6 @@ a {
     color: #595959;
 }
 
-li span.bullet-spacing {
-    position: relative;
-    left: 13px;
-}
-
 .right-block ol>li::marker {
     color: #000;
 }
@@ -186,10 +184,17 @@ p.black {
     color: #000;
 }
 
-/* LEADERS */
+/* List leaders in Projects */
 
 .underlined {
     text-decoration: underline dashed;
     color: #A8A8A8;
     white-space: pre;
+}
+
+/* List bullet spacing in Projects */
+
+li span.bullet-spacing {
+    position: relative;
+    left: 13px;
 }
