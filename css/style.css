@@ -57,6 +57,7 @@ h4 {
 	margin-bottom: 11px;
 }
 
+
 ul,
 ol {
 	padding-left: 0;
@@ -71,6 +72,18 @@ li {
 a {
 	text-decoration: none;
 	color: #595959;
+}
+
+.black {
+	color: #000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+h4 span {
+	color: #FB6D3A;
 }
 
 /* RIGHT BLOCK  */
@@ -116,6 +129,9 @@ a {
 
 #experience {
 	margin-bottom: 43px;
+}
+
+#experience ul {
 	/* width: 525px; */
 	width: 530px;
 }
@@ -129,20 +145,6 @@ a {
 
 #education .black.bold {
 	margin-bottom: 12px;
-}
-
-/* MISC */
-
-h4 span {
-	color: #FB6D3A;
-}
-
-.black {
-	color: #000;
-}
-
-.bold {
-	font-weight: bold;
 }
 
 /* LEFT BLOCK */
@@ -182,6 +184,13 @@ h4 span {
 
 #contacts a {
 	color: lightgray;
+}
+
+#contact-list {
+	list-style: none;
+	list-style-position: inside;
+	/* padding-left: 0; */
+	margin-left: -18px;
 }
 
 #github-logo {
