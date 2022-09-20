@@ -75,23 +75,23 @@ a {
 
 /* RIGHT BLOCK  */
 
-#right-block {
+#right-side {
 	width: 830px;
 	padding-left: 88px;
 	padding-top: 102px;
 }
 
-#right-block li {
+#right-side li {
 	color: #595959;
 }
 
-#projects-list li::marker {
+#projects-list ::marker {
 	color: #000;
 	font-weight: bold;
 }
 
 #about {
-	/* This block's width has been changed intentionally to accomodate new name's length */
+	/* This block's width has been changed intentionally to accommodate new name's length */
 	/* width: 400px; */
 	margin-bottom: 40px;
 }
@@ -104,7 +104,7 @@ a {
 
 #description {
 	line-height: 24px;
-	/* This block's width has been changed intentionally to accomodate the new name's length */
+	/* This block's width has been changed intentionally to accommodate the new name's length */
 	/* width: 400px; */
 	width: 480px;
 	/* text-align: justify; */
@@ -147,7 +147,7 @@ h4 span {
 
 /* LEFT BLOCK */
 
-#left-block {
+#left-side {
 	/* align-items: stretch; */
 	width: 370px;
 	padding-top: 40px;
