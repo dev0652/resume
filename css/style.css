@@ -104,10 +104,10 @@ a {
 
 #description {
 	line-height: 24px;
-	/* Block width has been changed intentionally to accomodate the new name's length */
+	/* This block's width has been changed intentionally to accomodate the new name's length */
 	/* width: 400px; */
 	width: 480px;
-	text-align: justify;
+	/* text-align: justify; */
 }
 
 #projects {
