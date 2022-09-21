@@ -1,11 +1,11 @@
 /* CSS Reset */
 
-/* html,
+html,
 body {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-} */
+}
 
 *,
 *:before,
@@ -67,7 +67,9 @@ ol {
 }
 
 li {
-	margin-left: 18px;
+	/* margin-left: 18px; */
+	position: relative;
+	left: 18px;
 }
 
 a {
@@ -148,6 +150,29 @@ h4 span {
 	margin-bottom: 12px;
 }
 
+/* Project list with dashed leaders */
+
+#projects-list li span {
+	display: inline-block;
+}
+
+#projects-list li>span {
+	margin-left: 13px;
+}
+
+.leaders-box {
+	width: 280px;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+
+.project-link:after {
+	content:
+		"_ _ _ _ _ _ _ _ _ _ _ _ _ _";
+	color: #A8A8A8;
+}
+
 /* LEFT BLOCK */
 
 #left-side {
@@ -197,24 +222,4 @@ h4 span {
 #github-logo {
 	height: 1em;
 	vertical-align: middle;
-}
-
-/* Dashed leaders in 'Projects' */
-
-#projects-list li span {
-	display: inline-block;
-}
-
-.leaders-box {
-	width: 280px;
-	margin-left: 13px;
-	white-space: nowrap;
-	overflow: hidden;
-	vertical-align: bottom;
-}
-
-.project-link:after {
-	content:
-		"_ _ _ _ _ _ _ _ _ _ _ _ _ _";
-	color: #A8A8A8;
 }
