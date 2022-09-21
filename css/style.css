@@ -69,8 +69,13 @@ ol {
 li {
 	/* margin-left: 18px; */
 	position: relative;
-	left: 18px;
+	/* left: 18px; */
+	left: 1.2rem;
 }
+/* 
+li::marker {
+	width: 1em;
+} */
 
 a {
 	text-decoration: none;
@@ -99,11 +104,6 @@ h4 span {
 
 #right-side li {
 	color: #595959;
-}
-
-#projects-list ::marker {
-	color: #000;
-	font-weight: bold;
 }
 
 #about {
@@ -151,6 +151,11 @@ h4 span {
 }
 
 /* Project list with dashed leaders */
+
+#projects-list ::marker {
+	color: #000;
+	font-weight: bold;
+}
 
 #projects-list li span {
 	display: inline-block;
