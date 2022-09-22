@@ -1,7 +1,6 @@
 /* CSS Reset */
 
-html,
-body {
+:root {
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -22,8 +21,11 @@ body {
 
 /* Main styles */
 
-body {
+:root {
 	font-family: 'Montserrat', sans-serif;
+}
+
+body {
 	background-color: #F5F7FA;
 }
 
@@ -108,7 +110,7 @@ h4 span {
 #target {
 	margin-bottom: 19px;
 	font-weight: bold;
-	color: #000;
+	color: black;
 }
 
 #description {
