@@ -21,15 +21,12 @@
 
 /* Main styles */
 
-:root {
-	font-family: 'Montserrat', sans-serif;
-}
-
 body {
+	font-family: 'Montserrat', sans-serif;
 	background-color: #F5F7FA;
 }
 
-#page {
+.page {
 	width: 1200px;
 	height: 1319px;
 	font-size: 14px;
@@ -91,29 +88,29 @@ h4 span {
 
 /* RIGHT BLOCK  */
 
-#right-side {
+.right-side {
 	width: 830px;
 	padding-left: 88px;
 	padding-top: 102px;
 }
 
-#right-side li {
+.right-side li {
 	color: #595959;
 }
 
-#about {
+.about {
 	/* This block's width has been changed intentionally to accommodate new name's length */
 	/* width: 400px; */
 	margin-bottom: 40px;
 }
 
-#target {
+.target {
 	margin-bottom: 19px;
 	font-weight: bold;
 	color: black;
 }
 
-#description {
+.description {
 	line-height: 24px;
 	/* This block's width has been changed intentionally to accommodate the new name's length */
 	/* width: 400px; */
@@ -121,15 +118,15 @@ h4 span {
 	/* text-align: justify; */
 }
 
-#projects {
+.projects {
 	margin-bottom: 51px;
 }
 
-#experience {
+.experience {
 	margin-bottom: 43px;
 }
 
-#experience ul {
+.experience ul {
 	/* width: 525px; */
 	width: 530px;
 }
@@ -141,26 +138,26 @@ h4 span {
 	margin-bottom: 8px;
 }
 
-#education .black.bold {
+.education .black.bold {
 	margin-bottom: 12px;
 }
 
 /* Project list with dashed leaders */
 
-#projects-list ::marker {
+.projects-list ::marker {
 	color: #000;
 	font-weight: bold;
 }
 
-#projects-list li {
+.projects-list li {
 		margin-left: 1.3em;
 }
 
-#projects-list li span {
+.projects-list li span {
 	display: inline-block;
 }
 
-#projects-list li>span {
+.projects-list li>span {
 	margin-left: 13px;
 }
 
@@ -179,51 +176,50 @@ h4 span {
 
 /* LEFT BLOCK */
 
-#left-side {
+.left-side {
 	/* align-items: stretch; */
 	width: 370px;
 	padding-top: 40px;
 	background-color: #1E2939;
 }
 
-#photo {
+.photo {
 	width: 370px;
 }
 
-#sidebar-text {
+.sidebar-text {
 	margin-top: 51px;
 	margin-left: 40px;
 	color: #FFF;
 }
 
 /* .sidebar-text div,  */
-#sidebar-text section {
+.sidebar-text section {
 	margin-bottom: 45px;
 }
 
-#sidebar-text ul>li::marker {
+.sidebar-text ul>li::marker {
 	color: #FB6D3A;
 }
 
-#contacts p {
+.contacts p {
 	display: inline;
 	/* font-weight: bold; */
 	line-height: 24px;
 	margin-right: 20px;
 }
 
-#contacts a {
-	color: lightgray;
+.contacts a {
+	color: #d3d3d3;
 }
 
-#contact-list {
+.contact-list {
 	list-style: none;
 	list-style-position: inside;
-	/* padding-left: 0; */
 	margin-left: -18px;
 }
 
-#github-logo {
+.github-logo {
 	height: 1em;
 	vertical-align: middle;
 }
